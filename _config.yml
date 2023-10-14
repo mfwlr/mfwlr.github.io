@@ -81,9 +81,9 @@ analytics:
 # Site Author
 author:
   name             : "Max Fowler"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : ""
+  avatar           : "Fowler_Face.jpg"
+  bio              : "PhD Candidate working in Computer Science Education, with a focus on scalable, fair exams and question authoring and grading strategies. I finally have a website!"
+  location         : 
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=qQP4bKoAAAAJ&hl=en&authuser=3"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/mfwlr"
+  github           : "mfwlr"
   google_plus      :
   keybase          :
   instagram        :
@@ -176,16 +176,16 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
@@ -255,7 +255,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
